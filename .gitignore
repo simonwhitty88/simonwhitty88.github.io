@@ -35,3 +35,8 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# IDE Files #
+#############
+*.cpf
+*.cpfs
