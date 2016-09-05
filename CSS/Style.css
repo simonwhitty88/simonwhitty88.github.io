@@ -1,45 +1,76 @@
 body {
     max-width:100pc;
-    background-color:#2e2e1f;
-    color:#adad85;
-    font-family: Mitr, sans-serif;
+    min-width:400px;
+    background-color:gray;
+    color:azure;
+    position:relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.5em;
+    overflow-x:hidden;
 }
 
-td {
-    vertical-align:top;
-}
-		   
 div {
-    min-width:300px;
-    max-width:50pc;
-    margin-top:10px;
-    margin-left:40px;
-    margin-right:40px;
-    overflow:hidden;  
+    text-align:center;
+    padding:20px 0px;
+    background-color:inherit;
 }
 
 a {
-    color:#adad85;
+    color:inherit;
 }
-		   
-.group {
-    padding-top:10px;
-}
-		   
-.name {
-    font-family: Syncopate, sans-serif;
-    font-size:4em;
-}
-		   
+
 .keyPoint {
-    font-size:2em;
+    font-size:1.5em;
+}
+
+.highlight {
+    color:#D0CE8B;
 }
 		   
-.imgFurBaby {
-    background-image:url(../Images/PrettiestPicture.jpg);
+.panelImg {
     background-size:cover;
     background-position:center;
-    max-width:30pc;
+    position:relative;
+    margin:0px -10px;
     height:500px;
-    border-radius:80px;
+    max-height:500px;
+    z-index:-1;
+}
+
+.skillList {
+    padding:0px 2pc;
+}
+
+.horLi {
+    list-style-type:none;
+}
+
+.horLi li {
+    display:inline-block;
+}
+
+.horLi li img {
+    height:40px;
+    margin-bottom:5px;
+}
+
+#skills li img {
+    margin:0px 30px;
+}
+
+#footer, .footerHolder {
+    min-height:30px;
+}
+
+#footer {
+    padding:0px 0px;
+    position:fixed;
+    bottom:0px;
+    right:20px;
+    font-size:0.5em;
+}
+
+#header {
+    font-size:3em;
+    margin:10px;
 }
